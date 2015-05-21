@@ -103,28 +103,18 @@ body {
 h6 {
     font-size: large;
     text-align: right;
+    padding-right: 180px;
 }
 
-.list {
-    list-style: disc;
-    font-family: "Times New Roman";
-}
-
-.titleOfSlide {
+/* Slides */
+#arduinoProject1{
     text-align: center;
-    padding: 0px 0px 20px;
 }
-        /* Photos */
-.simplePhoto{
-    padding: 20px;
-    border-radius: 50px;
-    box-shadow: 10px 10px 5px #888888;
-    
+#arduinoProject2{
+    text-align: center;
 }
-
-                           /* Slides */
-
-.block1, .block2{
+/* Classes */
+.block1, .block2, .block3{
     display: inline;
 } 
 .block1{
@@ -134,7 +124,31 @@ h6 {
     text-align: right;
 }
 
+.block3{
+    padding-top: 50px;
+}
 
+.list {
+    list-style: disc;
+    font-family: "Times New Roman";
+    text-align: left;
+    padding-left: 50px;
+}
+
+.titleOfSlide {
+    text-align: center;
+    padding: 0px 0px 20px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: forestgreen;
+}
+/* Photos */
+.simplePhoto{
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
 /*
     Now let's bring some text styles back ...
 */
@@ -212,9 +226,9 @@ a:focus {
 
 .step {
     position: relative;
-    width: 900px;
-    padding: 40px;
-    margin: 20px auto;
+    width: 1200px;
+    height: 650px;
+    padding: 10px 20px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
@@ -225,6 +239,7 @@ a:focus {
     font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
+    text-align: center;
 }
 
 /*
@@ -256,9 +271,9 @@ a:focus {
 .slide {
     display: block;
 
-    width: 900px;
-    height: 700px;
-    padding: 40px 60px;
+    width: 1200px;
+    height: 650px;
+    padding: 10px 20px;
 
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
